@@ -1,0 +1,854 @@
+/* =======================================================================	*/
+/*				FORMATAÇÃO DOS BOXES FLUANTES DA HOME						*/
+/*																			*/
+/* REFERENCIA DE CORRES:													*/
+/* #2D2D2D																	*/
+/* #202020																	*/
+/* =======================================================================	*/
+
+
+#principal {
+	margin: 0;
+	text-align: center;
+}
+
+#pagina {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	padding: 0;
+	margin: 0 auto;
+	width: 770px;
+	border-left: #444444 1px solid;
+	border-right: #444444 1x solid;
+	background-color: #111111;
+}
+
+
+/*	=====================================	*/
+/*				BOX DIV CABECALHO			*/
+/*	=====================================	*/
+
+#hm_cabecalho {
+	width: 770px;
+	height: 100px;
+	background-image: url(../imgs/cabecalho.jpg);
+	border-bottom: #4E4C4D 1px solid;
+	margin-bottom: 1px;
+}
+
+#hm_menu_cab {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #A8A8A8;
+	text-align: right;
+	background-color: #2A2A2A;
+	border-bottom: #000000 2px solid;
+	padding: 5px;
+	width: 100% auto;
+	height: 20px;
+}
+
+#mn_cab_item {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #A90100;
+	font-weight: bold;
+	float: right;
+}
+
+#mn_cab_sep {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #A8A8A8;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: right;
+}
+
+#mn_cab_espaco {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #A8A8A8;
+	margin-left: 75px;
+	margin-right: 5px;
+	float: right;
+}
+
+#hm_menu_faixa {
+	font-size: 1pt;
+	width: 100% auto;
+	height: 4px;
+	border-top: #6B696A 1px solid;
+	margin-bottom: 5px;
+	background-color: #4E4C4D;
+}
+
+
+
+
+
+/*	====================================================	*/
+/*			BOX DIV LATERAL ESQUERDA MENU PRINCIPAL			*/
+/*	====================================================	*/
+
+#hm_menu {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	width: 180px;
+	margin-left: 1px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+	float: right;
+}
+
+#mn_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 3px;
+	height: 15px;
+	background-color: #490000;
+	border-bottom: #2B0000 2px solid;
+	margin-bottom: 2px;
+}
+
+
+#mn_item {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 7.5pt;
+	color: #505050;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 3px;
+	height: 10px;
+	margin-bottom: 3px;
+	background-color: #FFFFFF;
+}
+
+#mn_espaco {
+	height: 10px;
+	clear: both;
+}
+
+
+
+
+
+/*	=====================================	*/
+/*		BOX DIV CENTRAL CONTEUDO			*/
+/*	=====================================	*/
+
+#hm_conteudo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	width: 580px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+#img_foto_home {
+	width: 275px;
+	background-color: #5D1111;
+	border: #5D1111 4px solid;
+	float: left;
+}
+
+#titulo_modelo_home {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #EEBE41;
+	color: #FFFFFF;
+	padding: 5px;
+	width: 100% auto;
+	height: 15px;
+	background-color: #7B1111;
+}
+
+#msg_erro {
+	font-size: 10px;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	color: #FF0000;
+	font-weight: bold;
+	text-align: left;
+	padding: 5px;
+	width: 100% auto;
+	height: 10px;
+	background-color: #5D1111;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	clear: left;
+}
+
+
+
+
+
+
+/*	=====================================	*/
+/*			BOX DIV DE RODAPE				*/
+/*	=====================================	*/
+
+#hm_rodape {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	padding: 2px;
+	margin-top: 5px;
+	border-bottom: #999999 1px solid;
+	clear: both;
+}
+
+#hm_menu_rodape {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px;
+	margin-top: 10px;
+	background-color: #202020;
+	height: 20px;
+	clear: both;
+}
+
+#hm_extra_rodape {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #F0F0F0;
+	text-align: center;
+	padding: 5px;
+	margin-top: 20px;
+	background-color: #0C0C0C;
+	height: 20px;
+	clear: both;
+}
+
+
+
+
+
+/*	================================================================	*/
+/*		BOXES DO CONTEUDO CENTRAL DA PÁGINA COM POSIÇÃO RELATIVA		*/
+/*	================================================================	*/
+
+#hm_conteudo_centro {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	width: 100% auto;
+	margin-left: 2px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+
+#hm_conteudo_dir {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	width: 155px;
+	margin-left: 5px;
+	float: left;
+}
+
+
+#hm_conteudo_interno {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	padding: 1px;
+	width: 100% auto;
+	float: left;
+}
+
+
+#hm_conteudo_video {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	text-align: center;
+	color: #000000;
+	width: 100% auto;
+	margin-left: 5px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+#video_centro {
+	width: 340px;
+	margin-bottom: 1px;
+	float: left;
+}
+
+#video_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: left;
+	color: #808080;
+	padding: 5px;
+	height: 15px;
+	background-color: #333333;
+	border-bottom: #222222 2px solid;
+	margin-bottom: 2px;
+}
+
+
+
+/*	================================================================	*/
+/*			BOX DIV CENTRAL DO CONTEUDO PRINCIPAL E INTERNO				*/
+/*	================================================================	*/
+
+#mn_foto {
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 15px;
+	padding: 0px;
+	background-color: #FFDD86;
+	border: 5px solid #B7340C;
+}
+
+#catalogo_titulo {
+	font-family: Verdana, Helvetica, Sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #747474;
+	text-decoration: none;
+	padding: 5px;
+	background-color: #F5F5F5;
+	margin-bottom: 5px;
+	width: 100% auto;
+	height: 15px;
+	clear: left;
+}
+
+#img_catalogo {
+	margin: 7px;
+	border: #555555 3px solid;
+	background-color: #000000;
+	float: left;
+}
+
+#centro_espaco {
+	height: 15px;
+	clear: both;
+}
+
+
+#centro_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 3px;
+	height: 15px;
+	background-color: #490000;
+	border-bottom: #2B0000 2px solid;
+	margin-bottom: 2px;
+}
+
+
+#centro_item {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 7.5pt;
+	color: #999999;
+	padding: 8px;
+	margin-bottom: 3px;
+	background-color: #555555;
+}
+
+
+#centro_imagem {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 7.5pt;
+	color: #999999;
+	width: 420px;
+	height: 100px;
+	background-color: #000000;
+}
+
+
+
+/*	======================================================	*/
+/*			BOX DIV DE NOTÍCIAS NO CENTRO					*/
+/*	======================================================	*/
+
+#noticia_centro {
+	width: 280px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#noticia_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #707070;
+	padding: 3px;
+	height: 15px;
+	border-top: #4B4B4B 1px solid;
+	border-left: #4B4B4B 1px solid;
+	background-color: #2D2D2D;
+	margin-bottom: 1px;
+}
+
+#noticia_item {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 7.5pt;
+	color: #999999;
+	padding: 8px;
+	margin-bottom: 3px;
+	background-color: #414141;
+}
+
+
+
+
+
+/*	================================================================	*/
+/*			BOX DIV MENU LATERAL DIREITA 								*/
+/*	================================================================	*/
+
+#menu_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #808080;
+	padding: 5px;
+	height: 15px;
+	background-color: #333333;
+	border-bottom: #222222 2px solid;
+	margin-bottom: 2px;
+}
+
+#menu_item {
+	height: 85px;
+	background-color: #333333;
+	margin-bottom: 1px;
+	clear: both;
+}
+
+#menu_foto {
+	padding: 5px;
+	float: left;
+}
+
+#menu_texto {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	padding: 5px;
+}
+
+
+
+/*	===================================	*/
+/*			ÚLTIMAS NOTÍCIAS			*/
+/*	===================================	*/
+
+#ultNoticias_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFCC00;
+	padding: 5px;
+	height: 15px;
+	border-top: #D99328 1px solid;
+	border-left: #D99328 1px solid;
+	background-color: #B16B00;
+	margin-bottom: 3px;
+	clear: both;
+}
+
+#ultNoticias_titulo2 {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #808080;
+	padding: 5px;
+	height: 15px;
+	background-color: #2D2D2D;
+	margin-bottom: 1px;
+	clear: both;
+}
+
+#ultNoticias_texto {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	padding: 5px;
+	background-color: #333333;
+	margin-bottom: 3px;
+	width: 180px;
+}
+
+
+
+
+
+
+/*	================================================================	*/
+/*			BOX DIV DO CONTEUDO INTERNO					*/
+/*	================================================================	*/
+
+#img_interna {
+	width: 250px;
+	border: #FFFFFF 3px dashed;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+
+#texto_interno {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 7.5pt;
+	color: #555555;
+	width: 100% auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+
+#img_lista {
+	width: 62px;
+	border: #FFFFFF 3px dashed;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+
+#texto_lista {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 7.5pt;
+	color: #555555;
+	width: 100% auto;
+	height: 70px;
+	background-color: #F5F5F5;
+	border-bottom: #FFFFFF 3px dashed;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+#quebra_lista {
+	margin-bottom: 15px;
+	clear: left;
+}
+
+
+
+
+/*	=====================================	*/
+/*		BOX DIV GALERIA DE FOTOS			*/
+/*	=====================================	*/
+
+#galeria_centro {
+	width: 200px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#galeria_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #F0F0F0;
+	padding: 5px;
+	height: 15px;
+	border-top: #7D7D7D 1px solid;
+	border-left: #7D7D7D 1px solid;
+	background-color: #555555;
+	margin-bottom: 1px;
+}
+
+#galeria_item {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	font-weight: bold;
+	padding: 5px;
+	height: 10px;
+	margin-bottom: 2px;
+	background-color: #555555;
+}
+
+#modelo_galeria_foto {
+	font-size: 1pt;
+	height: 72px;
+	border: #490000 4px solid;
+	margin: 5px;
+	float: left;
+}
+
+#int_foto_galeria {
+	width: 750px;
+	background-color: #000000;
+	float: left;
+}
+
+#int_galeria_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 3px;
+	height: 15px;
+	background-color: #490000;
+	border-bottom: #2B0000 2px solid;
+	margin-bottom: 2px;
+}
+
+
+
+
+
+/*	=====================================	*/
+/*		BOX DIV DO FREE TOUR				*/
+/*	=====================================	*/
+
+#free_centro {
+	width: 160px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#free_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 5px;
+	height: 15px;
+	border-top: #6B9BC4 1px solid;
+	border-left: #6B9BC4 1px solid;
+	background-color: #43739C;
+	margin-bottom: 1px;
+}
+
+#free_item {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	font-weight: bold;
+	padding: 5px;
+	height: 10px;
+	margin-bottom: 2px;
+	background-color: #555555;
+}
+
+#free_foto {
+	font-size: 1pt;
+	padding: 10px;
+	height: 10px;
+	float: left;
+}
+
+
+
+
+/*	=====================================	*/
+/*		BOX DIV LOGIN DE USUÁRIOS			*/
+/*	=====================================	*/
+
+#titulo_login {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #E9BFBF;
+	padding: 5px;
+	height: 15px;
+	border-top: #A33939 1px solid;
+	border-left: #A33939 1px solid;
+	background-color: #7B1111;
+	margin-bottom: 1px;
+}
+
+#form_login {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 7.5pt;
+	font-weight: bold;
+	color: #E9BFBF;
+	text-align: right;
+	padding: 5px;
+	background-color: #532929;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+
+#form_logado {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #E9BFBF;
+	text-align: left;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding: 5px;
+	background-color: #532929;
+}
+
+
+
+
+/*	====================================================	*/
+/*			BOX DIV DETALHES DAS MODELOS					*/
+/*	====================================================	*/
+
+#detalhe_modelo_foto {
+	width: 275px;
+	height: 260px;
+	float: left;
+}
+
+#detalhe_modelo_texto {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	margin-left: 5px;
+	color: #808080;
+	width: 285px;
+	float: left;
+}
+
+#detalhe_modelo_texto2 {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	width: 560px;
+	clear: both;
+}
+
+#detalhe_modelo_galeria {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	width: 460px;
+	float: left;
+}
+
+#detalhe_modelo_video {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	width: 100px;
+	float: left;
+}
+
+
+/*	===============================================	*/
+/*			BOX DIV TODAS AS MODELOS				*/
+/*	===============================================	*/
+
+#todas_modelos_img {
+	margin: 7px;
+	border: #490B0B 3px solid;
+	background-color: #532929;
+	float: left;
+}
+
+#todas_modelos_nome {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #AD9696;
+	padding: 5px;
+	width: 90px;
+	height: 62px;
+	background-color: #532929;
+	float: left;
+
+}
+
+
+/*	===============================================	*/
+/*		BOX DIV PÁGINA DE EXIBIÇÃO DE VÍDEOS		*/
+/*	===============================================	*/
+
+#video_menu_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #F0F0F0;
+	padding: 5px;
+	height: 15px;
+	border-top: #7D7D7D 1px solid;
+	border-left: #7D7D7D 1px solid;
+	background-color: #555555;
+	margin-bottom: 1px;
+}
+
+#video_menu_item {
+	height: 85px;
+	background-color: #333333;
+	margin-bottom: 1px;
+	display: block;
+	clear: both;
+}
+
+#video_menu_foto {
+	padding: 5px;
+	float: left;
+}
+
+#video_menu_texto {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	padding: 5px;
+}
+
+#video_menu_bt {
+	font-size: 1pt;
+	text-align: center;
+}
+
+#video_detalhe_titulo {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	padding: 5px;
+	color: #808080;
+	width: 100% auto;
+	height: 10px;
+	background-color: #444444;
+	margin-bottom: 1px;
+	clear: both;
+}
+
+#video_detalhe_texto {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	padding: 5px;
+	width: 100% auto;
+	height: 25px;
+	background-color: #333333;
+	clear: both;
+}
+
+
+/*	=======================================	*/
+/*		BOX DIV DE HOME DO CHAT AO VIVO		*/
+/*	=======================================	*/
+
+#chat_home_centro {
+	width: 270px;
+	height: 293px;
+	margin-left: 15px;
+	float: left;
+	background-color: #FF0000;
+}

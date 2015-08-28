@@ -1,0 +1,12 @@
+.slidercontainer {
+	border-right: #FFFF00 0px;
+	border-top: #FFFF00 0px;
+	border-left: #FFFF00 0px;
+	border-bottom: #FFFF00 0px
+}
+.sliderimages {
+	border-right: #111111 5px dashed;
+	border-top: #555555 5px dashed;
+	border-left: #111111 5px dashed;
+	border-bottom: #555555 5px dashed
+}

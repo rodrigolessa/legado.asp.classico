@@ -1,0 +1,65 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server> 
+'
+Sub Application_OnStart
+	Application.Lock
+	
+	Application("XCA_APP_OWNER")				= "riocam"
+	Application("XCA_APP_EMAIL")				= "contato@riocam.com"
+	Application("XCA_APP_TITLE")				= "Site riocam"
+	Application("XCA_APP_TITLE_SHORT")			= "riocam"
+	Application("XCA_APP_AUTOR")				= "Rodrigo Lessa"
+	Application("XCA_APP_VERSAO")				= "1.0.0"
+	Application("XCA_APP_HOME")					= "http://www.riocam.com/demo/"
+	Application("XCA_APP_DIR_IMAGENS")			= Application("XCA_APP_HOME") & "imgs/"
+	Application("XCA_APP_DIR_IMGS")				= Application("XCA_APP_HOME") & "imgs/"
+	Application("XCA_APP_DIR_IMGS_GERENCIA")	= Application("XCA_APP_HOME") & "imgs_gerencia/"
+	Application("XCA_APP_DIR_FOTOS")			= Application("XCA_APP_HOME") & "modelos/"
+	Application("XCA_APP_DIR_ARQUIVOS")			= "E:\vhosts\rioicam.com\httpdocs\demo\arquivos\"
+	Application("XCA_APP_DIR_BANNERS")			= "E:\vhosts\riocam.com\httpdocs\demo\banners\"
+	Application("XCA_APP_DIR_TEMP")				= "C:\temp\"
+	Application("XCA_APP_SERVERDIR_BASE")		= "E:\vhosts\riocam.com\httpdocs\demo\"
+	Application("XCA_APP_SERVERDIR_IMGS")		= Application("XCA_APP_SERVERDIR_BASE") & "imgs\"
+	Application("XCA_APP_IMAGENS")				= "/imgs/"
+	Application("XCA_APP_FOTOS")				= Application("XCA_APP_DIR_IMAGENS") & "fotos/"
+	
+	Application("UserCount")	= 0
+	Session("contUsuario")		= 0
+
+	Application.UnLock
+End Sub
+
+Sub Session_OnStart
+	Application.Lock
+	
+	Application("XCA_UserCount")		= Application("XCA_UserCount") + 1
+	
+	Application("XCA_StringConexao")	=	"Provider=SQLOLEDB.1;" & _
+											"Persist Security Info=False;" & _
+											"User ID=eroticam;" & _
+											"Password=latitude;" & _
+											"Initial Catalog=riocam23_;" & _
+											"Data Source=200.234.197.97"
+
+	Application("XCA_StringConexao_2")	= "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=E:\vhosts\riocam.com\httpdocs\demo\bd\xcam.mdb"
+	Application("XCA_ServerIP")			= "200.234.220.71"
+	Application("XCA_ServerSMTP")		= "200.234.220.71"
+	
+	Application.UnLock
+End Sub
+
+Sub Session_OnEnd
+	Application.Lock
+
+	Application("XCA_UserCount")	= Application("XCA_UserCount") - 1
+
+	Application.UnLock
+End Sub
+
+Sub Application_OnEnd
+	Application.Lock
+	
+	Application("XCA_UserCount")	= 0
+	
+	Application.UnLock
+End Sub
+</SCRIPT>

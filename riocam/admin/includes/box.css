@@ -1,0 +1,179 @@
+/* =======================================================================	*/
+/*				FORMATAÇÃO DOS BOXES FLUANTES DA HOME						*/
+/* =======================================================================	*/
+
+#principal {
+	width: 780px;
+	border-right: #000000 1px solid;
+	background-color: #FFFFFF;
+	position: relative;
+	display: block;
+}
+
+#cabecalho {
+	font-family: 'Trebuchet MS', Verdana, Geneva, Arial, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 6px;
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#777777', endColorStr='#333333', gradientType='0');
+	width: 100% auto;
+	height: 20px;
+	border-top: #D6DCEE 1px dashed;
+	border-bottom: #002766 1px dashed;
+	position: relative;
+	clear: both;
+}
+
+#menu {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 11px;
+	color: #006699;
+	font-weight: bold;
+	padding: 2px;
+	background-color: #F4F4F4;
+	width: 776px;
+	height: 20px;
+	position: relative;
+	clear: both;
+	z-index: 10;
+}
+
+#janela {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	padding: 5px;
+	width: 100% auto;
+	position: relative;
+	clear: both;
+	z-index: 1;
+}
+
+
+/*================================== ELEMENTOS DENTRO DA JANELA ==================================*/
+
+#titulo {
+	font-family: 'Trebuchet MS', Verdana, Geneva, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #555555;
+	text-align: left;
+	width: 100% auto;
+	height: 20px;
+	border-bottom: #666666 1px solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: relative;
+	clear: both;
+}
+
+#ferramenta {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 11px;
+	color: #000;
+	text-align: left;
+	padding: 5px;
+	background-color: #F4F4F4;
+	width: 100% auto;
+	height: 30px;
+	margin-bottom: 5px;
+	position: relative;
+	clear: both;
+}
+
+#ferramenta_base {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 1px;
+	color: #CDCAC5;
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#CDCAC5', endColorStr='#ADB1B0', gradientType='0');
+	width: 100% auto;
+	height: 8px;
+	border-bottom: #686C6F 1px solid;
+	position: relative;
+}
+
+#faixa {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 7pt;
+	color: #8F0000;
+	text-align: right;
+	padding: 3px;
+	background-image: url(../imgs/mn_bg_faixa.gif);
+	width: 100% auto;
+	height: 18px;
+	position: relative;
+}
+
+#conteudo {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	width: 100% auto;
+	border: #FFFFFF 1px solid;
+	position: relative;
+	clear: both;
+}
+
+
+#msg_erro {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+	text-align: left;
+	height: 10px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	position: relative;
+	clear: both;
+}
+
+#centro_espaco {
+	height: 10px;
+	clear: both;
+}
+
+
+/* FORMATAÇÃO DE BOXES PARA POPUPS DLG */
+
+#dlgPrincipal {
+	width: 340px;
+	border-right: #000000 1px solid;
+	background-color: #FFFFFF;
+	position: relative;
+	display: block;
+}
+
+#dlgJanela {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	padding: 5px;
+	width: 100% auto;
+	position: relative;
+	clear: both;
+	z-index: 1;
+}
+
+#dlgConteudo {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	width: 100% auto;
+	border: #FFFFFF 1px solid;
+	position: relative;
+	clear: both;
+}
+
+#dlgImgThumb {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	color: #000000;
+	width: 62px;
+	height: 82px;
+	margin: 7px;
+	float: left;
+}

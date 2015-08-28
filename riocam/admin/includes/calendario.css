@@ -1,0 +1,49 @@
+a.mes {
+	color: #000000;
+	text-decoration: none;
+	}
+	
+a.mes:hover {
+	text-decoration: underline;
+}
+
+a.mes:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+a.setas {
+	color: #000000;
+	text-decoration: none;
+	}
+	
+a.setas:hover {
+	text-decoration: underline;
+}
+
+a.setas:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.Texto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	}
+
+.TextoG {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	}
+
+.TextoP {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	}
+
+.diaN { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; text-decoration: none; color: #000000 }
+.diaF { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; text-decoration: none; color: #ff0000 }
+
+.diaN2 { font-family: Verdana, Helvetica, sans-serif; font-size: 9pt; text-decoration: none; color: #000000  }
+.diaF2 { font-family: Verdana, Helvetica, sans-serif; font-size: 9pt; text-decoration: none; color: #000066; font-weight: bold}
+
